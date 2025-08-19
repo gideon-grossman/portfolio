@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/material";
+import "./App.css";
+import Headshot from "./Headshot";
+import Summary from "./Summary";
+import Skills from "./Skills";
+import Links from "./Links";
+import GlassCard from "./components/GlassCard";
+import { Stack } from "@mui/material";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack padding={4} gap={2} direction="row" flexWrap="wrap">
+      <GlassCard>
+        <Headshot />
+        <Summary />
+        <Stack alignSelf="start" marginLeft={"-16px"}>
+          <Links />
+        </Stack>
+      </GlassCard>
+      <Box flex={1} minWidth={150}>
+        <GlassCard>
+          <Skills />
+        </GlassCard>
+      </Box>
+      {/* <Contact /> */}
+    </Stack>
   );
 }
 
