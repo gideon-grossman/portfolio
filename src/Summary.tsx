@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 
 const Summary = () => {
   return (
-    <Stack gap={2} alignItems={"start"} width={"100%"} height="250px">
+    <Stack gap={2} alignItems={"start"} width={"100%"} height="320px">
       <Typography variant="h6">Hi, I'm Gideon.</Typography>
       <ReactTyped
         strings={[

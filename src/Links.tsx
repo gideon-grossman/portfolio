@@ -10,7 +10,7 @@ const Links = () => {
     },
   ];
   return (
-    <Stack direction="row" gap={2} alignItems="center">
+    <Stack direction="row" gap={2} alignItems="center" justifyContent="end">
       {links.map((link) => (
         <Button onClick={() => window.open(link.url, "_blank")}>
           <img
@@ -18,13 +18,19 @@ const Links = () => {
             width={theme.spacing(8)}
             height={theme.spacing(8)}
             style={{ borderRadius: "5px" }}
+            alt={link.url}
           />
         </Button>
       ))}
       <a href={cv} download="Gideon_Grossman_CV" target="_blank">
         <Button
           variant="outlined"
-          sx={{ color: "white", textTransform: "none" }}
+          sx={{
+            color: "primary",
+            backgroundColor: "#FFF",
+            textTransform: "none",
+            fontWeight: "bold",
+          }}
         >
           Download CV
         </Button>

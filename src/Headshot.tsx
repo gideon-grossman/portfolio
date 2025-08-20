@@ -7,6 +7,7 @@ const Headshot = () => {
         src="./Headshot.JPG"
         height="100%"
         style={{ borderRadius: "16px" }}
+        alt="Gideon Grossman Headshot"
       />
     </Stack>
   );
