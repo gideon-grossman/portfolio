@@ -9,7 +9,13 @@ import { Stack } from "@mui/material";
 
 function App() {
   return (
-    <Stack padding={4} gap={2} direction="row" flexWrap="wrap">
+    <Stack
+      padding={4}
+      gap={2}
+      direction="row"
+      flexWrap="wrap"
+      justifyContent="center"
+    >
       <GlassCard>
         <Headshot />
         <Summary />
