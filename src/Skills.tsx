@@ -145,7 +145,7 @@ const Skills = () => {
     );
   };
   return (
-    <Stack gap={4} alignItems="center">
+    <Stack gap={4} alignItems="center" paddingBottom={2}>
       {skillSection(frontEndSkills, "Front End Technologies")}
       {skillSection(dataVisualizationSkills, "Data Visualization")}
       {skillSection(backEndSkills, "Back End")}

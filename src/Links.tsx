@@ -24,7 +24,7 @@ const Links = () => {
       <a href={cv} download="Gideon_Grossman_CV" target="_blank">
         <Button
           variant="outlined"
-          sx={{ color: "black", textTransform: "none" }}
+          sx={{ color: "white", textTransform: "none" }}
         >
           Download CV
         </Button>
