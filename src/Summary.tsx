@@ -11,9 +11,9 @@ const Summary = () => {
           "With a knack for distilling large, complex datasets into intuitive, user flows, I've spent the past 10 years building performant and elegant web applications for innovative startup companies\
         in industries spanning biotech, logistics, clean energy and AI.<br><br>\
          I'm passionate about leading frontend and fullstack efforts at mission driven companies that have a positive impact on the world.<br><br>\
-        When I'm not coding, you may spot me on a bicycle or surfboard or playing a game of chess.",
+        When I'm not coding, you may spot me on a bicycle or surfboard or playing chess.",
         ]}
-        typeSpeed={5}
+        typeSpeed={3}
         backSpeed={10}
         className="text-xl text-gray-600"
         style={{ fontSize: "1rem", fontFamily: "Arial" }}
