@@ -23,7 +23,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://gideon-grossman.github.io/<portfolio>/",
+  "homepage": "https://gideon-grossman.github.io/portfolio/",
   "scripts": {
     "predeploy": "npm run build && cp build/index.html build/404.html",
     "deploy": "gh-pages -d build",
